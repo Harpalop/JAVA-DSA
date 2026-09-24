@@ -10,7 +10,7 @@ class Xnumbers{
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the number type 'x' to stop" );
+        System.out.println("Enter the numbers type 'x' to stop" );
 
         int total = 0;
 
