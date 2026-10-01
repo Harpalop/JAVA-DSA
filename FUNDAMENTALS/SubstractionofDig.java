@@ -1,3 +1,5 @@
+// substraction of sum and product of digits of an integer //
+
 package FUNDAMENTALS;
 
 import java.util.Scanner;
