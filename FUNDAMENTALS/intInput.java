@@ -1,4 +1,4 @@
-// Take integer inputs till the user enters 0 and print the sum of all numbers //
+// Take integer inputs till the user enters 0 and print the sum of all numbers and print the largest number from all //
 
 package FUNDAMENTALS;
 
@@ -14,6 +14,8 @@ public class intInput {
 
         int sum = 0;
 
+        int max = Integer.MIN_VALUE;
+
         while(true){
 
             int number = sc.nextInt();
@@ -23,9 +25,17 @@ public class intInput {
             }
 
             sum = sum + number;
+
+            if(number>max){
+
+                max = number;
+            }
+
         }
 
         System.out.println("the total sum is : "+sum);
+
+        System.out.println("the maximum number among all is : "+max);
         
         sc.close();
     }
